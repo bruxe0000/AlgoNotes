@@ -17,7 +17,7 @@ namespace AlgorithmPlayground
             };
 
             SortEngine sortEng = new SortEngine(SortEngine.SortOptions.QuickSort);
-            Console.Write("Before Sort:");
+            Console.Write("Before Sort: ");
             array.ForEach(i => Console.Write($"{i} "));
 
             Console.Write("\nSorted Array: ");

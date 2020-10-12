@@ -25,7 +25,6 @@ namespace Sorting
             if (array == null || array.Count == 0)
                 return array;
 
-
             List<int> _array = array;
             switch (_option)
             {
